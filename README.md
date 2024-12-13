@@ -26,9 +26,9 @@ MongoDB, Git, VS Code
 Linear algebra applications, Spring Boot, and Verilog FSM design.  
 
 ### 🌟 Featured Projects  
-- **[Interdisciplinary Collaboration Platform](#)**  
+- **[Interdisciplinary Collaboration Platform](https://github.com/drumilbhati/CrossDiscipline)**  
   A web app designed to connect students and professors for cross-domain projects.  
-- **[Website for Epsilon Recruitment](#)**  
+- **[Website for Epsilon Recruitment](https://github.com/drumilbhati/Website)**  
   Streamlined recruitment with an interactive and user-friendly interface.  
 
 ### 🌐 Community Involvement  
