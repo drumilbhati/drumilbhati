@@ -34,4 +34,4 @@ Linear algebra applications, Spring Boot, and Verilog FSM design.
 
 ### 📫 Let’s Connect  
 - **[LinkedIn](https://www.linkedin.com/in/drumil-bhati/)**  
-- **[Portfolio](#)**  
+- **[Portfolio](https://drive.google.com/file/d/1_G1xmTiEDGayBesJQve8MFxb9QNKNSaG/view?usp=drive_link)**  
