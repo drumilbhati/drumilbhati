@@ -46,5 +46,3 @@ Linear algebra applications, Spring Boot, and Verilog FSM design.
 - **[Portfolio](#)**  
 
 ---
-
-Feel free to tweak this to match your preferences or let me know what else you’d like to add!
