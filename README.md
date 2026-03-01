@@ -1,32 +1,51 @@
-# About Me
+# 👋 Welcome to My GitHub!  
 
-Hello! I'm Drumil Bhati, a passionate software developer with a love for coding and technology.
+**I'm Drumil Bhati**  
+🎓 **3rd-Year CSE Student** | 💻 **Full-Stack Developer** | 🌍 **Based in Bhuj, Gujarat, India**  
 
-# Tech Stack
+### 🚀 About Me  
+I'm passionate about crafting innovative web applications and solving complex problems with code. Whether it's building a dynamic front-end with React or designing scalable back-end systems with Node.js and MongoDB, I thrive on turning ideas into reality.  
 
-- **Languages:** JavaScript, Python, Java
-- **Frameworks:** React, Node.js, Django
-- **Databases:** MongoDB, PostgreSQL
-- **Tools:** Git, Docker, Jenkins
+🌟 **Current Focus:**  
+- Creating interdisciplinary platforms to foster collaboration between students and professors.  
+- Diving deeper into C++ for data structure and algorithm mastery.  
+- Building projects that bridge the gap between academia and industry.
 
-# Featured Projects
+⚡ **Fun Fact:** When I'm not coding, you'll find me in the badminton courts or futsal fields.
 
-1. **Project One:** A web application built with React and Node.js.
-2. **Project Two:** An API developed in Python using Flask.
+### 🛠️ Tech Stack  
+**Languages:**  
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)  
 
-# GitHub Stats
-![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=drumilbhati&show_icons=true)
+**Frameworks & Libraries:**  
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)  
 
-# Community Involvement
+**Databases & Tools:**  
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)  
 
-I enjoy contributing to open-source projects and participating in hackathons.
+**Other Skills:**  
+Spring Boot, Verilog FSM Design, Linear Algebra Applications
 
-# Contact
+### 🌟 Featured Projects  
+- **[TeamSync](https://github.com/drumilbhati/TeamSync)**  
+  Full Stack Collaborative Platform for Teams - A comprehensive solution designed to enhance team productivity and streamline collaboration.
+  
+- **[The Programming Club](https://github.com/PClub-Ahmedabad-University/The-Programming-Club)**  
+  Official website for The Programming Club at Ahmedabad University. A vibrant community platform connecting programmers and fostering collaborative learning.
 
-Feel free to reach out:
-- Email: drumilbhati@example.com
-- LinkedIn: [Profile Link](https://www.linkedin.com/in/drumilbhati)
+- **[TablingTime Backend](https://github.com/PrashamMehta-04/TablingTime-Backend)**  
+  Backend infrastructure for TablingTime project, built with modern JavaScript frameworks for robust API development and data management.
+
+### 📊 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=drumilbhati&show_icons=true&theme=radical)
+
+### 🌐 Community Involvement  
+I'm proud to be part of the **Ahmedabad University Dev Team**, contributing to impactful projects that enhance the university's tech ecosystem. I actively participate in collaborative development and contribute to open-source initiatives.
+
+### 📫 Let's Connect  
+- **[LinkedIn](https://www.linkedin.com/in/drumil-bhati/)** - Connect with me professionally  
+- **[Resume](https://drive.google.com/file/d/1AJzatkzKn0xdltk9x7uIyqxkwfZMApr9/view?usp=sharing)** - View my detailed experience
 
 ---
 
-*Last updated: 2026-03-01 02:16:02 UTC*
+⭐ *Feel free to explore my repositories and reach out if you'd like to collaborate on interesting projects!*
