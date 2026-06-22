@@ -40,7 +40,7 @@ Spring Boot, Verilog FSM Design, Linear Algebra Applications, Network Systems, D
 
 #### 🛡️ Full-Stack & Security
 *   **[SecureOrder](https://github.com/drumilbhati/secureorder)**  
-    A secure e-commerce/transaction processing engine built with a strong focus on data validation, robust backend security patterns, and safe state management.
+    A distributed blockchain MEV (Maximal Extractable Value) mitigation solution leveraging a **Raft consensus protocol** and a First-In-First-Out (FIFO) transaction sequencer. Deployed on **AWS** to guarantee fault-tolerant, high-availability fair ordering and prevent front-running.
 *   **[TeamSync](https://github.com/drumilbhati/TeamSync)**  
     Full Stack Collaborative Platform for Teams — A comprehensive solution designed to enhance team productivity, task tracking, and communication.
 
