@@ -23,6 +23,15 @@ I'm passionate about crafting innovative web applications, building secure syste
 **Databases & Tools:**  
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)  
 
+### 🏆 Competitive Programming
+I actively solve algorithmic challenges to sharpen my data structures, problem-solving speed, and optimization skills.
+
+<!-- Dynamic LeetCode Stats Badge -->
+<a href="https://leetcode.com/u/drumilbhati/"><img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=LeetCode&query=data.matchedUser.submitStats.acSubmissionNum[0].count&url=https://leetcode-api-faisalshohag.vercel.app/drumilbhati&color=FFA116&logo=leetcode&logoColor=black" alt="LeetCode Problems Solved" /></a>
+
+<!-- Dynamic Codeforces Rating Badge -->
+<a href="https://codeforces.com/profile/Drumil"><img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=Codeforces&query=result[0].newRating&url=https://codeforces.com/api/user.rating?handle=Drumil&color=1F8ACB&logo=codeforces" alt="Codeforces Rating" /></a>
+
 **Other Skills:**  
 Spring Boot, Verilog FSM Design, Linear Algebra Applications, Network Systems, Database Management
 
