@@ -65,7 +65,7 @@ I'm proud to be part of the **Ahmedabad University Dev Team**, contributing to i
 
 ### 📫 Let's Connect  
 - **[LinkedIn](https://www.linkedin.com/in/drumil-bhati/)** - Connect with me professionally  
-- **[Resume](https://drive.google.com/file/d/1AJzatkzKn0xdltk9x7uIyqxkwfZMApr9/view?usp=sharing)** - View my detailed experience
+- **[Resume](https://drive.google.com/file/d/1IPMcJAx50Jo2XJaRMzm3qIi3LbqVGJyf/view?usp=sharing)** - View my detailed experience
 
 ---
 ⭐ *Feel free to explore my repositories and reach out if you'd like to collaborate on interesting projects!*
