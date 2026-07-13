@@ -1,80 +1,71 @@
-# 👋 Welcome, I'm Drumil Bhati  
-### Backend & Distributed Systems Engineer
+# 👋 Welcome to My GitHub!  
 
-Final-year Computer Science & Engineering student at Ahmedabad University, specialized in building resilient, high-throughput backend infrastructure, consensus protocols, and concurrent algorithms.
+**I'm Drumil Bhati**  
+🎓 **Final Year CSE Student** | 💻 **Full-Stack Developer** | 🌍 **Based in Bhuj, Gujarat, India**  
 
----
+### 🚀 About Me  
+I'm passionate about crafting innovative web applications, building secure systems, and solving complex problems with code. Whether it's spinning up high-performance full-stack architectures, writing automation tools, or digging into low-level networking, I thrive on turning ideas into reality.  
 
-### 🚀 Core Focus & Philosophy
-*   **High Performance Systems**: Engineering low-latency concurrent backends in **Go** and **C++**.
-*   **Distributed Architectures**: Designing fault-tolerant consensus mechanisms (Raft) and microservice communication topologies via **gRPC/Protobuf**.
-*   **Algorithmic Solving**: Deep passion for competitive programming and complex constraint optimization.
-*   **Academic Leadership**: Appointed twice as a Teaching Assistant for *Design and Analysis of Algorithms* and *Data Structures*. Served as Competitive Programming Head for the AU Programming Club.
+🌟 **Current Focus:**  
+- Creating interdisciplinary platforms to foster collaboration between students and professors.  
+- Diving deeper into C++ and Go for system-level programming and high-performance backend systems.  
+- Building production-grade web applications that prioritize security and scalability.
 
----
+⚡ **Fun Fact:** When I'm not coding, you'll find me on the badminton courts or futsal fields.
 
-### 🏆 Algorithmic Profile & Telemetry
+### 🛠️ Tech Stack  
+**Languages:**  
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)  
 
-I actively solve algorithmic challenges to benchmark my constraint logic and optimization speed.
+**Frameworks & Libraries:**  
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)  
 
-| Platform | Rating | Status / Rank | Solved |
-| :--- | :--- | :--- | :--- |
-| **LeetCode** | **2000** *(Max: 2004)* | Knight (Top 2%) | **1344** |
-| **Codeforces** | **1285** *(Max: 1378)* | Pupil | **1074** |
-| **CodeChef** | **1611** *(Max: 1611)* | 3★ | **321** |
-| **AtCoder** | **814** | 6 Kyu | Active |
-| **Total Solved** | | | **2743+** |
+**Databases & Tools:**  
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white)  
 
----
+### 🏆 Competitive Programming
+I actively solve algorithmic challenges to sharpen my data structures, problem-solving speed, and optimization skills.
 
-### 🛠️ Core Tech Stack
+<!-- Dynamic LeetCode Stats Badge -->
+<a href="https://leetcode.com/u/drumilbhati/"><img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=LeetCode&query=data.matchedUser.submitStats.acSubmissionNum[0].count&url=https://leetcode-api-faisalshohag.vercel.app/drumilbhati&color=FFA116&logo=leetcode&logoColor=black" alt="LeetCode Problems Solved" /></a>
 
-```json
-{
-  "languages": ["Go (Golang)", "C++", "Java", "TypeScript", "SQL"],
-  "frameworks_apis": ["gRPC / Protocol Buffers", "Gorilla Mux", "Node.js", "Express.js", "Next.js"],
-  "infrastructure": ["Docker", "AWS (EC2 / VPC / IAM)", "Nginx", "Redis", "PostgreSQL", "MongoDB"],
-  "paradigms": ["Distributed Consensus (Raft)", "Multi-threading", "TCP/IP Sockets", "CSP Search"]
-}
-```
+<!-- Dynamic Codeforces Rating Badge -->
+<a href="https://codeforces.com/profile/Drumil"><img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&label=Codeforces&query=result[0].newRating&url=https://codeforces.com/api/user.rating?handle=Drumil&color=1F8ACB&logo=codeforces" alt="Codeforces Rating" /></a>
 
----
+**Other Skills:**  
+Spring Boot, Verilog FSM Design, Linear Algebra Applications, Network Systems, Database Management
 
-### 🌟 Featured Systems & Projects
+### 🌟 Featured Projects  
 
-#### ⚡ [SecureOrder](https://github.com/drumilbhati/secureorder) — Blockchain MEV Protection Engine
-*   **Tech Stack:** Go / C++ / Solidity / gRPC / Raft / AWS
-*   Designed and built a distributed transaction sequencer that mitigates Maximal Extractable Value (MEV) front-running attacks.
-*   Implements a **Raft consensus cluster** (5-nodes) to enforce strict FIFO ordering.
-*   Sustains **3000+ RPS** with sub-12ms processing latencies.
+#### 📅 The TablingTime Ecosystem
+*   **[TablingTime Frontend](https://github.com/drumilbhati/TablingTime-Frontend)** & **[TablingTime Backend](https://github.com/drumilbhati/TablingTime-Backend)**
+    An intuitive scheduling and time management solution. Built using modern JavaScript frameworks to deliver robust RESTful APIs, efficient data pipelines, and a seamless, responsive UI.
 
-#### 📅 [TablingTime Ecosystem](https://github.com/drumilbhati/TablingTime-Backend) — Greedy CSP Scheduler
-*   **Tech Stack:** Node.js / Express / MongoDB
-*   Re-engineered university course scheduling for **2000+ students and 180 courses**.
-*   Utilizes a backtracking **Greedy Constraint-Satisfaction (CSP) algorithm** to resolve conflicts.
-*   Reduced scheduling time from **15 hours of manual work to under 3 minutes** of computation.
+#### 🌐 Networking & Systems
+*   **[NetPack](https://github.com/drumilbhati/NetPack)**  
+    A specialized networking utility designed for efficient network packet handling or analysis, showcasing low-level data manipulation and systems concepts.
+*   **[BackupDB](https://github.com/drumilbhati/BackupDB)**  
+    A reliable, automated database backup utility designed to streamline data redundancy, preservation, and disaster recovery workflows.
 
-#### 🚦 [Urban Traffic Simulator](https://github.com/drumilbhati/NetPack) — OSM Graph Optimizer
-*   **Tech Stack:** Python / NetworkX / OpenStreetMap / SUMO
-*   Created a dynamic road network traffic simulator that maps global cities using the OpenStreetMap API.
-*   Applied a backpressure flow algorithm to adjust traffic light phase configurations in real time, increasing baseline vehicle throughput by **24%**.
+#### 🛡️ Full-Stack & Security
+*   **[SecureOrder](https://github.com/drumilbhati/secureorder)**  
+    A distributed blockchain MEV (Maximal Extractable Value) mitigation solution leveraging a **Raft consensus protocol** and a First-In-First-Out (FIFO) transaction sequencer. Deployed on **AWS** to guarantee fault-tolerant, high-availability fair ordering and prevent front-running.
+*   **[TeamSync](https://github.com/drumilbhati/TeamSync)**  
+    Full Stack Collaborative Platform for Teams — A comprehensive solution designed to enhance team productivity, task tracking, and communication.
 
-#### 🔌 [NetPack](https://github.com/drumilbhati/NetPack) — Network Packet Analyzer
-*   **Tech Stack:** C++ / TCP Socket Layer
-*   A low-level system utility for capturing, parsing, and analyzing TCP/IP packets directly on network interfaces.
+#### 🏫 Community Code
+*   **[The Programming Club](https://github.com/PClub-Ahmedabad-University/The-Programming-Club)**  
+    Official website for The Programming Club at Ahmedabad University. A vibrant hub connecting student programmers and fostering peer-to-peer collaborative learning.
 
-#### 💾 [BackupDB](https://github.com/drumilbhati/BackupDB) — Database Backup Sync Tool
-*   **Tech Stack:** Go / Bash / Cron
-*   Automated incremental and full backup utility for MongoDB/PostgreSQL, compiling and sync-shipping backups to remote object storage with compression.
+### 📊 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=drumilbhati&show_icons=true&theme=radical)
 
----
+### 🌐 Community Involvement  
+I'm proud to be part of the **Ahmedabad University Dev Team**, contributing to impactful projects that enhance the university's tech ecosystem. I actively participate in collaborative development and love contributing to open-source initiatives.
 
-### 📊 GitHub Activity
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=drumilbhati&show_icons=true&theme=radical&hide_border=true)
+### 📫 Let's Connect  
+- **[LinkedIn](https://www.linkedin.com/in/drumil-bhati/)** - Connect with me professionally  
+- **[Resume](https://drive.google.com/file/d/1IPMcJAx50Jo2XJaRMzm3qIi3LbqVGJyf/view?usp=sharing)** - View my detailed experience
 
 ---
-
-### 📫 Open Communication Channels
-*   **Email**: [drumilbhati5@gmail.com](mailto:drumilbhati5@gmail.com)
-*   **LinkedIn**: [linkedin.com/in/drumil-bhati](https://www.linkedin.com/in/drumil-bhati/)
-*   **Resume**: [resume.pdf](https://drive.google.com/file/d/1IPMcJAx50Jo2XJaRMzm3qIi3LbqVGJyf/view?usp=sharing)
+⭐ *Feel free to explore my repositories and reach out if you'd like to collaborate on interesting projects!*
