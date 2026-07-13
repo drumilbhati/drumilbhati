@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Drumil Bhati Backend & Distributed Systems Engineer. Specialized in building resilient, high-throughput systems using Go, C++, and Node.js.">
+  <title>Drumil Bhati Backend & Distributed Systems Engineer</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Grid Background & Lighting -->
+  <div class="ambient-grid"></div>
+  <div class="glow-effect" id="glow"></div>
+
+  <!-- Header / Navigation -->
+  <header class="header reveal">
+    <div class="container header-container">
+      <a href="#" class="logo">
+        <span class="logo-symbol">&gt;_</span>
+        <span class="logo-text">drumil</span>
+      </a>
+      <nav class="nav">
+        <a href="#work" class="nav-link"><span class="nav-num">01.</span>work</a>
+        <a href="#experience" class="nav-link"><span class="nav-num">02.</span>experience</a>
+        <a href="#academics" class="nav-link"><span class="nav-num">03.</span>academics</a>
+        <a href="#arsenal" class="nav-link"><span class="nav-num">04.</span>arsenal</a>
+        <a href="#contact" class="nav-link"><span class="nav-num">05.</span>contact</a>
+        <a href="https://drive.google.com/file/d/1IPMcJAx50Jo2XJaRMzm3qIi3LbqVGJyf/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="nav-link resume-btn">resume.pdf</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="section hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="status-badge-wrapper reveal">
+          <span class="status-indicator"></span>
+          <span class="status-text">Available for backend opportunities</span>
+        </div>
+        
+        <h1 class="hero-headline reveal">
+          Drumil Bhati<br>
+          <span class="accent-text">Backend & Distributed Systems</span> Engineer.
+        </h1>
+        
+        <p class="hero-subheadline reveal">
+          Building resilient, high-throughput systems in Go, C++, and Node.js. Currently final-year Computer Science student at Ahmedabad University.
+        </p>
+
+        <!-- Metric Counters -->
+        <div class="metrics-grid reveal">
+          <div class="metric-card">
+            <div class="metric-num">1M+</div>
+            <div class="metric-label">Concurrent Requests Handled</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-num">Top 2%</div>
+            <div class="metric-label">LeetCode Knight Status</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-num" id="lc-solved-metric">2743+</div>
+            <div class="metric-label">Problems Solved Accross Platforms</div>
+          </div>
+        </div>
+
+        <!-- Live CP Telemetry Bar -->
+        <div class="telemetry-bar reveal">
+          <div class="telemetry-title">&gt;_ live_cp_telemetry.sh</div>
+          <div class="telemetry-items">
+            <a href="https://leetcode.com/u/drumilbhati/" target="_blank" rel="noopener noreferrer" class="telemetry-item" id="lc-telemetry">
+              <span class="telemetry-platform">LeetCode:</span>
+              <span class="telemetry-val" id="lc-rating">2000 (Knight)</span>
+            </a>
+            <a href="https://codeforces.com/profile/Drumil" target="_blank" rel="noopener noreferrer" class="telemetry-item" id="cf-telemetry">
+              <span class="telemetry-platform">Codeforces:</span>
+              <span class="telemetry-val" id="cf-rating">1285 (Pupil)</span>
+            </a>
+            <a href="https://www.codechef.com/users/drumilbhati" target="_blank" rel="noopener noreferrer" class="telemetry-item" id="cc-telemetry">
+              <span class="telemetry-platform">CodeChef:</span>
+              <span class="telemetry-val" id="cc-rating">1611 (3★)</span>
+            </a>
+            <a href="https://atcoder.jp/users/DrumilBhati" target="_blank" rel="noopener noreferrer" class="telemetry-item" id="ac-telemetry">
+              <span class="telemetry-platform">AtCoder:</span>
+              <span class="telemetry-val" id="ac-rating">814 (6 Kyu)</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Work Section -->
+    <section class="section work-section" id="work">
+      <div class="container">
+        <h2 class="section-title reveal">
+          <span class="section-title-num">01 //</span> Selected Work
+        </h2>
+        
+        <div class="work-layout">
+          <!-- Project List (Left) -->
+          <div class="project-list reveal">
+            
+            <div class="project-item active" data-project="secureorder">
+              <div class="project-item-main">
+                <span class="project-num">01.</span>
+                <h3 class="project-name">SecureOrder</h3>
+              </div>
+              <span class="project-tech">Go / C++ / Solidity / gRPC</span>
+              <div class="mobile-project-details">
+                <p class="mobile-desc">Built an MEV protection layer using Raft consensus on a 5-node AWS cluster, sustaining 3000+ RPS.</p>
+                <div class="mobile-stats">
+                  <span>p99: &lt;12ms</span>
+                  <span>Raft Consensus</span>
+                  <span>AWS Deployed</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-item" data-project="tablingtime">
+              <div class="project-item-main">
+                <span class="project-num">02.</span>
+                <h3 class="project-name">Tabling Time</h3>
+              </div>
+              <span class="project-tech">Node.js / Express / MongoDB</span>
+              <div class="mobile-project-details">
+                <p class="mobile-desc">Engineered a university scheduling engine for 2000+ students using a greedy constraint-satisfaction algorithm, slashing admin time to minutes.</p>
+                <div class="mobile-stats">
+                  <span>Greedy CSP</span>
+                  <span>Node.js API</span>
+                  <span>15h to 3min</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-item" data-project="trafficlights">
+              <div class="project-item-main">
+                <span class="project-num">03.</span>
+                <h3 class="project-name">Urban Traffic Light Scheduler</h3>
+              </div>
+              <span class="project-tech">Python / OpenStreetMap</span>
+              <div class="mobile-project-details">
+                <p class="mobile-desc">Complex network traffic simulator outperforming Backpressure baseline models across 4 global cities.</p>
+                <div class="mobile-stats">
+                  <span>NetworkX</span>
+                  <span>OSM Data</span>
+                  <span>+24% Flow Rate</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Console Preview (Right) -->
+          <div class="console-wrapper reveal">
+            <div class="console-header">
+              <div class="console-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="console-title" id="consoleTitle">secureorder_sys.log</span>
+              <span class="console-lang" id="consoleLang">go</span>
+            </div>
+            
+            <div class="console-body" id="consoleBody">
+              <!-- Content injected via JS -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    <!-- Experience & Impact Section -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <h2 class="section-title reveal">
+          <span class="section-title-num">02 //</span> Experience & Impact
+        </h2>
+        
+        <div class="two-column-grid">
+          <!-- Left Column: Academic & Teaching -->
+          <div class="grid-card reveal">
+            <div class="card-meta">Academic Focus</div>
+            <h3 class="card-heading">Teaching Assistant</h3>
+            <p class="card-body">
+              Appointed as a Teaching Assistant twice, leading sessions for both <strong>Design and Analysis of Algorithms</strong> and <strong>Data Structures</strong>. Mentored over 300+ students through weekly laboratory sessions and office hours. Designed tests and graded assignments, resulting in a 20% average course score improvement across students.
+            </p>
+            <div class="card-footer-metrics">
+              <span class="metric-badge">Algorithms & Data Structures</span>
+              <span class="metric-badge">300+ Students Mentored</span>
+            </div>
+          </div>
+
+          <!-- Right Column: Technical Leadership -->
+          <div class="grid-card reveal">
+            <div class="card-meta">Leadership & CP</div>
+            <h3 class="card-heading">Programming Club Head</h3>
+            <p class="card-body">
+              Appointed Competitive Programming Head at Ahmedabad University Programming Club. Led training and algorithmic problem-solving workshops for 20+ core members. Orchestrated mock contests and review discussions covering tree algorithms, network flows, and dynamic programming, boosting average club contest rankings by 30%.
+            </p>
+            <div class="card-footer-metrics">
+              <span class="metric-badge">20+ Core Competitors</span>
+              <span class="metric-badge">+30% Contest Standings</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Academics Section -->
+    <section class="section academics-section" id="academics">
+      <div class="container">
+        <h2 class="section-title reveal">
+          <span class="section-title-num">03 //</span> Academics
+        </h2>
+        
+        <div class="two-column-grid">
+          <!-- Left Column: Academic Credentials -->
+          <div class="grid-card reveal">
+            <div class="card-meta">Education</div>
+            <h3 class="card-heading">Ahmedabad University</h3>
+            <p class="card-body">
+              <strong>School of Engineering and Applied Science (SEAS)</strong><br>
+              Bachelor of Technology (B.Tech) in Computer Science and Engineering (CSE)<br>
+              <em>Class of 2027 (Final Year)</em>
+              <br><br>
+              Focusing on system-level performance, distributed architectures, and algorithmic complexity analysis. Applying discrete structures, automata, and network graphs to engineering challenges.
+            </p>
+            <div class="card-footer-metrics">
+              <span class="metric-badge">GPA: 9.50/10</span>
+            </div>
+          </div>
+
+          <!-- Right Column: Key Coursework & Achievements -->
+          <div class="grid-card reveal">
+            <div class="card-meta">Curriculum & Core Studies</div>
+            <h3 class="card-heading">Theoretical & Applied CSE</h3>
+            <p class="card-body">
+              Undergraduate coursework emphasizes foundational systems programming, theory of computation, database isolation layers, and optimization algorithms.
+            </p>
+            <div class="coursework-grid">
+              <div class="course-item">
+                <span class="course-name">Data Structures & Algorithms</span>
+                <span class="course-detail">TA Grade: A+</span>
+              </div>
+              <div class="course-item">
+                <span class="course-name">Database Management Systems</span>
+                <span class="course-detail">Concurrency Control</span>
+              </div>
+              <div class="course-item">
+                <span class="course-name">Computer Networks</span>
+                <span class="course-detail">TCP/IP Socket Routing</span>
+              </div>
+              <div class="course-item">
+                <span class="course-name">Operating Systems</span>
+                <span class="course-detail">POSIX Multi-threading</span>
+              </div>
+              <div class="course-item">
+                <span class="course-name">Theory of Computation</span>
+                <span class="course-detail">Automata & Grammars</span>
+              </div>
+              <div class="course-item">
+                <span class="course-name">Linear Algebra</span>
+                <span class="course-detail">Applied Vectors & Graphs</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Core Stack & Arsenal Section -->
+    <section class="section arsenal-section" id="arsenal">
+      <div class="container">
+        <h2 class="section-title reveal">
+          <span class="section-title-num">04 //</span> Core Stack & Arsenal
+        </h2>
+        
+        <div class="arsenal-grid">
+          <div class="arsenal-card reveal">
+            <h3 class="arsenal-category">Systems</h3>
+            <div class="arsenal-list">
+              <div class="arsenal-item">
+                <span class="item-name">Go</span>
+                <span class="item-bar"><span class="bar-fill" style="width: 95%;"></span></span>
+              </div>
+              <div class="arsenal-item">
+                <span class="item-name">C++</span>
+                <span class="item-bar"><span class="bar-fill" style="width: 90%;"></span></span>
+              </div>
+              <div class="arsenal-item">
+                <span class="item-name">Java</span>
+                <span class="item-bar"><span class="bar-fill" style="width: 80%;"></span></span>
+              </div>
+              <div class="arsenal-item">
+                <span class="item-name">Node.js (JS/TS)</span>
+                <span class="item-bar"><span class="bar-fill" style="width: 85%;"></span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="arsenal-card reveal">
+            <h3 class="arsenal-category">Distributed Systems</h3>
+            <div class="arsenal-list">
+              <div class="arsenal-item">
+                <span class="item-name">Raft Consensus</span>
+                <span class="item-bar"><span class="bar-fill" style="width: 85%;"></span></span>
+              </div>
+              <div class="arsenal-item">
+                <span class="item-name">gRPC & Protobuf</span>
+                <span class="item-bar"><span class="bar-fill" style="width: 90%;"></span></span>
+              </div>
+              <div class="arsenal-item">
+                <span class="item-name">Concurrency Patterns</span>
+                <span class="item-bar"><span class="bar-fill" style="width: 95%;"></span></span>
+              </div>
+              <div class="arsenal-item">
+                <span class="item-name">API Design</span>
+                <span class="item-bar"><span class="bar-fill" style="width: 90%;"></span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="arsenal-card reveal">
+            <h3 class="arsenal-category">Infrastructure & Data</h3>
+            <div class="arsenal-list">
+              <div class="arsenal-item">
+                <span class="item-name">Docker</span>
+                <span class="item-bar"><span class="bar-fill" style="width: 90%;"></span></span>
+              </div>
+              <div class="arsenal-item">
+                <span class="item-name">AWS Services</span>
+                <span class="item-bar"><span class="bar-fill" style="width: 80%;"></span></span>
+              </div>
+              <div class="arsenal-item">
+                <span class="item-name">Redis (Caching/PubSub)</span>
+                <span class="item-bar"><span class="bar-fill" style="width: 85%;"></span></span>
+              </div>
+              <div class="arsenal-item">
+                <span class="item-name">PostgreSQL & MongoDB</span>
+                <span class="item-bar"><span class="bar-fill" style="width: 88%;"></span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer / Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-container">
+        <h2 class="section-title reveal">
+          <span class="section-title-num">05 //</span> Contact
+        </h2>
+        
+        <div class="contact-content reveal">
+          <span class="contact-hint">Interested in scalable infrastructure?</span>
+          <a href="mailto:drumilbhati5@gmail.com" class="big-email-link">
+            drumilbhati5<span class="accent-email">@</span>gmail.com
+          </a>
+          
+          <div class="social-links">
+            <a href="https://github.com/drumilbhati" target="_blank" rel="noopener noreferrer" class="social-link">
+              <span class="social-icon">&lt;&gt;</span> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/drumil-bhati/" target="_blank" rel="noopener noreferrer" class="social-link">
+              <span class="social-icon">in</span> LinkedIn
+            </a>
+            <a href="https://leetcode.com/u/drumilbhati/" target="_blank" rel="noopener noreferrer" class="social-link">
+              <span class="social-icon">[]</span> LeetCode
+            </a>
+            <a href="https://codeforces.com/profile/Drumil" target="_blank" rel="noopener noreferrer" class="social-link">
+              <span class="social-icon">cf</span> Codeforces
+            </a>
+            <a href="https://www.codechef.com/users/drumilbhati" target="_blank" rel="noopener noreferrer" class="social-link">
+              <span class="social-icon">cc</span> CodeChef
+            </a>
+            <a href="https://atcoder.jp/users/DrumilBhati" target="_blank" rel="noopener noreferrer" class="social-link">
+              <span class="social-icon">ac</span> AtCoder
+            </a>
+            <a href="https://drive.google.com/file/d/1IPMcJAx50Jo2XJaRMzm3qIi3LbqVGJyf/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="social-link">
+              <span class="social-icon">pdf</span> Resume
+            </a>
+          </div>
+        </div>
+
+        <!-- Interactive Terminal Shell Easter Egg -->
+        <div class="terminal-shell-container reveal" style="width: 100%; max-width: 800px; margin: 4rem auto 2rem auto;">
+          <div class="terminal-log-container">
+            <div class="terminal-log-header">
+              <span class="terminal-log-dot red"></span>
+              <span class="terminal-log-dot yellow"></span>
+              <span class="terminal-log-dot green"></span>
+              <span class="terminal-log-title">interactive_shell.sh</span>
+            </div>
+            <div class="terminal-log-body" id="shell-body" style="min-height: 200px; max-height: 280px; overflow-y: auto; font-size: 0.8rem;">
+              <div id="terminal-history" style="white-space: pre-wrap; margin-bottom: 0.5rem; line-height: 1.4; color: var(--text-secondary);">Welcome to drumil.dev interactive systems trace.
+Type 'help' to see active session commands.</div>
+              <div class="terminal-input-line" style="display: flex; align-items: center;">
+                <span style="color: var(--accent); margin-right: 0.5rem; font-weight: bold;">guest@drumil.dev:~$</span>
+                <input type="text" id="terminal-input" style="flex: 1; background: transparent; border: none; outline: none; color: var(--text-primary); font-family: var(--font-mono); font-size: 0.8rem;" autocomplete="off" placeholder="type 'help'..."></input>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="footer-credits">Designed & Engineered by Drumil Bhati. All rights reserved &copy; 2026.</p>
+          <span class="footer-latency" id="pingDisplay">ping: 0ms (cached)</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
