@@ -1,0 +1,455 @@
+/* index.css */
+
+:root {
+  /* Codeforces Classic Light Theme */
+  --bg-color: #f8f8f8;
+  --container-bg: #ffffff;
+  --text-primary: #333333;
+  --text-secondary: #666666;
+  --border-color: #cccccc;
+  --border-light: #e1e1e1;
+  --link-color: #3b5998;
+  --link-hover: #0000ff;
+  
+  --cf-red: #ff0000;
+  --cf-yellow: #fca400;
+  --cf-blue: #3b5998;
+  
+  --sidebar-header-bg: #e1e1e1;
+  --sidebar-header-text: #3b5998;
+  --card-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  
+  --btn-bg: #f2f2f2;
+  --btn-border: #cccccc;
+  --btn-text: #333333;
+  
+  /* Rating Colors */
+  --rating-gray: #808080;
+  --rating-green: #008000;
+  --rating-cyan: #03a89e;
+  --rating-blue: #0000ff;
+  --rating-violet: #aa00aa;
+  --rating-orange: #ff8c00;
+  --rating-red: #ff0000;
+  
+  --font-mono: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+[data-theme='dark'] {
+  /* Codeforces Cyber Dark Theme */
+  --bg-color: #0d0f12;
+  --container-bg: #15181e;
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --border-color: #2e3746;
+  --border-light: #202632;
+  --link-color: #58a6ff;
+  --link-hover: #79c0ff;
+  
+  --cf-red: #ff4d4d;
+  --cf-yellow: #ffb300;
+  --cf-blue: #58a6ff;
+  
+  --sidebar-header-bg: #202632;
+  --sidebar-header-text: #58a6ff;
+  --card-shadow: 0 4px 12px rgba(0,0,0,0.25);
+  
+  --btn-bg: #21262d;
+  --btn-border: #30363d;
+  --btn-text: #c9d1d9;
+  
+  /* Glowing Rating Colors for Dark Mode */
+  --rating-gray: #8b949e;
+  --rating-green: #34d399;
+  --rating-cyan: #22d3ee;
+  --rating-blue: #3b82f6;
+  --rating-violet: #c084fc;
+  --rating-orange: #fb923c;
+  --rating-red: #f87171;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+/* Layout Structure */
+.app-container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+@media (min-width: 850px) {
+  .main-layout {
+    grid-template-columns: 3fr 1fr;
+  }
+}
+
+/* Common Components */
+.roundbox {
+  background-color: var(--container-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+}
+
+.roundbox-header {
+  background-color: var(--sidebar-header-bg);
+  color: var(--sidebar-header-text);
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.roundbox-content {
+  padding: 15px;
+}
+
+/* CF specific elements */
+.cf-handle {
+  font-weight: bold;
+}
+.cf-handle.newbie { color: var(--rating-gray); }
+.cf-handle.pupil { color: var(--rating-green); }
+.cf-handle.specialist { color: var(--rating-cyan); }
+.cf-handle.expert { color: var(--rating-blue); }
+.cf-handle.candidate-master { color: var(--rating-violet); }
+.cf-handle.master { color: var(--rating-orange); }
+.cf-handle.grandmaster { color: var(--rating-red); }
+
+/* Navigation & Submenu */
+.nav-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 2px solid var(--border-color);
+  margin-bottom: 15px;
+  list-style: none;
+}
+
+.nav-tabs li {
+  margin-bottom: -2px;
+}
+
+.nav-tabs a {
+  display: block;
+  padding: 8px 16px;
+  font-weight: bold;
+  color: var(--text-primary);
+  border-radius: 4px 4px 0 0;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.nav-tabs a:hover {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.nav-tabs .active a {
+  border: 1px solid var(--border-color);
+  border-bottom-color: var(--container-bg);
+  background-color: var(--container-bg);
+  color: var(--link-color);
+}
+
+/* User Submenu (the second row under the main tabs) */
+.submenu-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 4px 10px;
+  background-color: var(--container-bg);
+  border-bottom: 1px solid var(--border-light);
+  margin-bottom: 15px;
+  border-radius: 3px;
+}
+
+.submenu-item {
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  cursor: pointer;
+  padding: 4px 8px;
+}
+
+.submenu-item:hover, .submenu-item.active {
+  color: var(--link-color);
+  background-color: var(--bg-color);
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+/* Tables */
+.cf-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.cf-table th, .cf-table td {
+  padding: 8px 10px;
+  border: 1px solid var(--border-light);
+}
+
+.cf-table th {
+  background-color: var(--sidebar-header-bg);
+  color: var(--text-primary);
+  font-weight: bold;
+}
+
+.cf-table tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+/* Form elements */
+.cf-form-group {
+  margin-bottom: 15px;
+}
+
+.cf-form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cf-input, .cf-textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  background-color: var(--container-bg);
+  color: var(--text-primary);
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.cf-input:focus, .cf-textarea:focus {
+  outline: none;
+  border-color: var(--link-color);
+  box-shadow: 0 0 4px rgba(59, 89, 152, 0.2);
+}
+
+.cf-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: var(--btn-bg);
+  border: 1px solid var(--btn-border);
+  color: var(--btn-text);
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cf-btn:hover {
+  background-color: var(--border-light);
+}
+
+.cf-btn.primary {
+  background-color: var(--link-color);
+  color: white;
+  border-color: var(--cf-blue);
+}
+
+.cf-btn.primary:hover {
+  opacity: 0.9;
+}
+
+/* Grid Calendar */
+.contribution-calendar {
+  display: grid;
+  grid-template-columns: repeat(53, 1fr);
+  gap: 2px;
+  margin: 15px 0;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.calendar-day {
+  aspect-ratio: 1;
+  border-radius: 1px;
+}
+
+/* Heatmap colors matching Codeforces/Github activity */
+.day-0 { background-color: var(--border-light); }
+.day-1 { background-color: #d1fae5; }
+.day-2 { background-color: #a7f3d0; }
+.day-3 { background-color: #34d399; }
+.day-4 { background-color: #059669; }
+
+[data-theme='dark'] .day-1 { background-color: #064e3b; }
+[data-theme='dark'] .day-2 { background-color: #047857; }
+[data-theme='dark'] .day-3 { background-color: #10b981; }
+[data-theme='dark'] .day-4 { background-color: #34d399; }
+
+/* Status Badges */
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.status-badge.live {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: var(--rating-green);
+}
+
+.status-badge.cached {
+  background-color: rgba(100, 116, 139, 0.1);
+  color: var(--text-secondary);
+}
+
+.pulse-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+
+.status-badge.live .pulse-dot {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(0.9); opacity: 0.6; }
+  50% { transform: scale(1.2); opacity: 1; }
+  100% { transform: scale(0.9); opacity: 0.6; }
+}
+
+/* Tags List styled like Codeforces tags */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.tag-item {
+  font-size: 11px;
+  padding: 3px 8px;
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  color: var(--text-secondary);
+}
+
+/* Histogram Chart */
+.histogram {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.histogram-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.histogram-label {
+  width: 45px;
+  font-family: var(--font-mono);
+  font-weight: bold;
+  text-align: right;
+}
+
+.histogram-bar-container {
+  flex-grow: 1;
+  background-color: var(--bg-color);
+  height: 16px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.histogram-bar {
+  background: linear-gradient(90deg, var(--cf-blue), var(--cf-yellow));
+  height: 100%;
+  border-radius: 3px;
+}
+
+.histogram-value {
+  width: 30px;
+  font-size: 11px;
+  color: var(--text-secondary);
+}
+
+/* Quick Card info */
+.quick-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.quick-stat-card {
+  padding: 12px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-light);
+}
+
+.quick-stat-card .value {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.quick-stat-card .label {
+  font-size: 11px;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+}
+
+/* PDF/Print style layouts for Resume sections */
+.resume-section-header {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--link-color);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.resume-section-header:first-of-type {
+  margin-top: 0;
+}
