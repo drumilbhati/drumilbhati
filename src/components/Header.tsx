@@ -69,13 +69,9 @@ export const Header: React.FC<HeaderProps> = ({
 
   return (
     <header style={{ marginBottom: '20px', borderBottom: '1px solid var(--border-light)', paddingBottom: '10px' }}>
-      {/* Top Bar (Language, Login Details, Theme Toggle) */}
+      {/* Top Bar (Login Details, Theme Toggle) */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '12px', padding: '5px 0', color: 'var(--text-secondary)' }}>
-        <div>
-          {/* Mock Flags */}
-          <span style={{ marginRight: '10px', cursor: 'pointer' }} title="English">🇬🇧</span>
-          <span style={{ marginRight: '10px', cursor: 'pointer' }} title="Russian">🇷🇺</span>
-        </div>
+        <div />
         <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
           <span>
             {theme === 'light' ? 'Classic Light' : 'Cyber Dark'} Mode |{' '}
@@ -102,7 +98,7 @@ export const Header: React.FC<HeaderProps> = ({
 
       {/* Main Logo and Sponsorship Banner */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '15px 0', flexWrap: 'wrap', gap: '15px' }}>
-        {/* Codeforces Logo */}
+        {/* Personal Branding Logo */}
         <div 
           onClick={() => setActiveTab('home')}
           style={{ display: 'flex', alignItems: 'center', gap: '10px', cursor: 'pointer', userSelect: 'none' }}
@@ -124,10 +120,10 @@ export const Header: React.FC<HeaderProps> = ({
               lineHeight: '1',
               color: 'var(--text-primary)'
             }}>
-              CODEFORCES
+              DRUMIL BHATI
             </h1>
             <p style={{ fontSize: '9px', letterSpacing: '1px', textTransform: 'uppercase', color: 'var(--text-secondary)', marginTop: '2px' }}>
-              Sponsored by <span style={{ color: 'var(--link-color)', fontWeight: 'bold' }}>TON</span>
+              Systems & Algorithms Portfolio
             </p>
           </div>
         </div>
