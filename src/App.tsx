@@ -13,20 +13,10 @@ function App() {
   const stats = useCPStats();
   const [activeTab, setActiveTab] = useState('home');
   const [activeSubTab, setActiveSubTab] = useState('overview');
-  const [theme, setTheme] = useState<'light' | 'dark'>(() => {
-    const saved = localStorage.getItem('cf_theme');
-    return (saved === 'dark' || saved === 'light') ? saved : 'light';
-  });
-
-  // Apply theme to document element
+  // Set dark theme permanently on mount
   useEffect(() => {
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('cf_theme', theme);
-  }, [theme]);
-
-  const toggleTheme = () => {
-    setTheme(prev => (prev === 'light' ? 'dark' : 'light'));
-  };
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }, []);
 
   return (
     <div className="app-container">
@@ -36,8 +26,6 @@ function App() {
         setActiveTab={setActiveTab}
         activeSubTab={activeSubTab}
         setActiveSubTab={setActiveSubTab}
-        theme={theme}
-        toggleTheme={toggleTheme}
         stats={stats}
       />
 

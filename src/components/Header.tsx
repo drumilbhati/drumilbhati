@@ -6,8 +6,6 @@ interface HeaderProps {
   setActiveTab: (tab: string) => void;
   activeSubTab: string;
   setActiveSubTab: (subTab: string) => void;
-  theme: 'light' | 'dark';
-  toggleTheme: () => void;
   stats: CPStats;
 }
 
@@ -16,8 +14,6 @@ export const Header: React.FC<HeaderProps> = ({
   setActiveTab,
   activeSubTab,
   setActiveSubTab,
-  theme,
-  toggleTheme,
   stats
 }) => {
   const mainTabs = [
@@ -69,31 +65,11 @@ export const Header: React.FC<HeaderProps> = ({
 
   return (
     <header style={{ marginBottom: '20px', borderBottom: '1px solid var(--border-light)', paddingBottom: '10px' }}>
-      {/* Top Bar (Login Details, Theme Toggle) */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '12px', padding: '5px 0', color: 'var(--text-secondary)' }}>
-        <div />
-        <div style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
-          <span>
-            {theme === 'light' ? 'Classic Light' : 'Cyber Dark'} Mode |{' '}
-            <button 
-              onClick={toggleTheme} 
-              style={{ 
-                background: 'none', 
-                border: 'none', 
-                color: 'var(--link-color)', 
-                cursor: 'pointer', 
-                fontWeight: 'bold',
-                textDecoration: 'underline'
-              }}
-            >
-              Switch to {theme === 'light' ? 'Dark' : 'Light'}
-            </button>
-          </span>
-          <span>
-            Logged in as <span className="cf-handle pupil">{stats.codeforces.handle}</span> |{' '}
-            <a href="#logout" style={{ fontWeight: 'bold' }}>Logout</a>
-          </span>
-        </div>
+      {/* Top Bar (Simplified) */}
+      <div style={{ display: 'flex', justifyContent: 'flex-end', fontSize: '12px', padding: '5px 0', color: 'var(--text-secondary)' }}>
+        <span>
+          Logged in as <span className="cf-handle pupil">{stats.codeforces.handle}</span>
+        </span>
       </div>
 
       {/* Main Logo and Sponsorship Banner */}
